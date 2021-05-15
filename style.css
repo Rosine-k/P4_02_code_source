@@ -39,6 +39,26 @@ a:hover {
     position: relative;
 }
 
+.subtitle {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.testimony, .realisations {
+    font-size: 2.3rem;
+    font-weight: 300;
+    text-transform: none;
+    text-align: center;
+}
+
+.titre {
+    color: #c27956;
+}
+
+.name-testimony {
+    font-size: 1.8rem;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -91,7 +111,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/fond-noir.png");
     background-size: 280px 280px;
 }
 
@@ -639,8 +659,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -722,9 +741,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
     color: #333333!important;
@@ -775,7 +792,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black;
 }
 
 .btn-atomic-tangerine {
@@ -810,11 +827,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/grillage.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lignes.png");
 }
 
 .bg-banniere {
