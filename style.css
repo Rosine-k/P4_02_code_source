@@ -40,7 +40,7 @@ a:hover {
 }
 
 .subtitle {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
 }
 
@@ -53,10 +53,24 @@ a:hover {
 
 .titre {
     color: #c27956;
+    margin: auto;
 }
 
 .name-testimony {
     font-size: 1.8rem;
+}
+
+.adresse {
+    margin-top: 1em;
+    font-size: 15px;
+}
+
+.margin {
+    margin: auto;
+}
+
+.footer {
+    margin-left: 1rem;
 }
 
 .bloc .container {
@@ -989,6 +1003,11 @@ h4 {
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+        background-color: gray;
     }
     .bloc {
         padding-left: 0;
