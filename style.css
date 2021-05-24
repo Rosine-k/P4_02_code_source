@@ -69,9 +69,6 @@ a:hover {
     margin: auto;
 }
 
-.footer {
-    margin-left: 1rem;
-}
 
 .bloc .container {
     padding-left: 0;
@@ -125,7 +122,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/fond-noir.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -841,11 +838,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/grillage.png");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lignes.png");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
@@ -1074,5 +1071,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        margin-left: 1rem;
     }
 }
