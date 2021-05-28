@@ -77,13 +77,17 @@ a:hover {
 }
 
 .btn-atomic {
-    background: #c27956;
+    background: brown;
     color: #FFFFFF!important;
 }
 
 .btn-atomic:hover {
     background: #F3976C!important;
     color: #FFFFFF!important;
+}
+
+.bgc-atomic {
+    background-color: brown;
 }
 
 .bloc .container {
