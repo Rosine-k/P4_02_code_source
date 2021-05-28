@@ -63,6 +63,7 @@ a:hover {
 .adresse {
     margin-top: 1em;
     font-size: 15px;
+    color: black;
 }
 
 .margin {
@@ -493,7 +494,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: white;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -769,7 +770,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
