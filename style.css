@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.text-center {
+    color: black;
+    font-weight: 500;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -54,6 +59,12 @@ a:hover {
 .titre, .titre2 {
     color: #c27956;
     margin: auto;
+}
+
+.link_footer {
+    
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 400px) {
@@ -428,7 +439,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: black;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -705,7 +716,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -776,8 +787,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-
-
 h4 {
     color: #333333!important;
 }
@@ -788,7 +797,8 @@ h4 {
 }
 
 .white {
-    color: white!important;
+    color: black;
+    font-weight: 500;
 }
 
 .portfolio-thumb {
